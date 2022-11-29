@@ -43,6 +43,7 @@ cd wordpress
 ```
 
 2. Create a **docker-compose.yml** file and insert the contents below:
+
 ```Bash
 vim docker-compose.yml
 i #INSERT MODE
