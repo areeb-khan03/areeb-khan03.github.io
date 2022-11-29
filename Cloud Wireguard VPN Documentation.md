@@ -14,6 +14,7 @@ mkdir -p ~/wireguard/
 mkdir -p ~/wireguard/config/
 ```
 2. Create a **.yml** file and copy paste the following contents into the file. Make sure to change the **TZ** and **SERVERURL** appropriately. You can grab the server url from the droplet's **Networking** tab under the **Public IPV4 Address**.
+
 ```Bash
 vim ~/wireguard/docker-compose.yml
 
