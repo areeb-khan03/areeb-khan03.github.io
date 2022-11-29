@@ -80,14 +80,17 @@ services:
       ["./:/var/www/html"]
 volumes:
   mysql: {}
+
 ```
 
 3. Run the following command to start the containers:
+
 ```Bash
 sudo docker compose up -d
 ```
 
 4. Open a browser and navigate to the site **http://localhost:8000/**. You will be greeted with a **WordPress** setup page. Fill in all information and log in to access the **WordPress** dashboard.
+
 ---
 
 ## Screenshot of Dashboard:
