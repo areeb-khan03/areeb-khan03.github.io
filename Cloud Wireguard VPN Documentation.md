@@ -48,7 +48,9 @@ services:
     sysctls:
       - net.ipv4.conf.all.src_valid_mark=1
 ```
+
 3. Run the docker using the following command:
+
 ```Bash
 cd ~/wireguard/
 sudo docker-compose up -d
